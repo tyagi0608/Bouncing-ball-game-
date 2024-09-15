@@ -17,7 +17,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/tyagi0608/bouncing-ball-game.git
+git clone https://github.com/tyagi0608/Bouncing-ball-game-.git
 Navigate to the Project Directory:
 
 bash
