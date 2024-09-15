@@ -1,13 +1,47 @@
-# Bouncing-ball-game-
-This repository contains three progressively enhanced versions of a simple bouncing ball game built using HTML, CSS, and JavaScript. The game starts with a basic bouncing ball animation. It evolves into an interactive game where users can click on the ball to earn points, with increasing difficulty in later versions.
-Versions
+Bouncing Ball Game - Version 1
+Overview
+This is a simple bouncing ball game implemented using HTML, CSS, and JavaScript. In this initial version, you will see a ball that bounces around the screen, changing direction when it hits the edges. The game is designed to help beginners understand basic web development concepts and the integration of HTML, CSS, and JavaScript.
 
-Version 1: Basic Ball Bounce.
-It's a simple animation where a ball bounces around the screen. The ball changes direction upon hitting the edges of the screen.
+Features
+Bouncing Ball: A ball that moves and bounces off the screen edges.
+Basic Animation: Uses simple CSS for styling and JavaScript for animation.
+Getting Started
+Prerequisites
+A modern web browser (Chrome, Firefox, Edge, etc.)
+Files
+index.html: The main HTML file for the game.
+css/style.css: The CSS file for styling the ball and the game area.
+js/script.js: The JavaScript file containing the game logic and animation.
+How to Run
+Clone the Repository:
 
-Version 2: Random Angle Bounce
-It's an enhanced version where the ball bounces off the edges at random angles, making the movement less predictable and more fun.
+bash
+Copy code
+git clone https://github.com/your-username/bouncing-ball-game.git
+Navigate to the Project Directory:
 
-Version 3: Click to Vanish and Score
-The final version adds interactivity: clicking on the ball makes it vanish and reappear at random positions. With each successful click, the score increases and the ball’s speed gradually increases to challenge the player.
+bash
+Copy code
+cd bouncing-ball-game/version1
+Open index.html in a Web Browser: Simply double-click on the index.html file, or right-click and select "Open with" to choose your preferred web browser.
+
+How It Works
+The ball is created using CSS, and its movement is controlled by JavaScript.
+The ball changes direction randomly upon hitting the screen boundaries.
+Future Plans
+Add more features such as score tracking.
+Improve the graphics and animation effects.
+Implement more interactive elements.
+Contribution
+If you would like to contribute to the development of this game, feel free to fork the repository and submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any questions or feedback, please contact:
+
+Name: Vaishnavi Tyagi
+Email: tyagivaish123@gmail.com
+
 
