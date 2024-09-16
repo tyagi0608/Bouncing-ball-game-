@@ -1,37 +1,34 @@
-# Version 2: Bouncing Ball Game with Random Angles
+# Bouncing Ball Game - Version 3
 
 ## Overview
-In Version 2 of the bouncing ball game, we have enhanced the game by introducing random angle changes. Now, every time the ball bounces off the walls, it does so at a randomly generated angle, making the game more dynamic and unpredictable.
+Welcome to Version 3 of the Bouncing Ball Game! This version introduces interactive features to enhance the gameplay experience. When the user clicks on the ball, it vanishes, reappears at a random position, and the score increases by one. Additionally, the speed of the ball increases with each click.
 
 ## Features
-- **Randomized Bounce Angles**: The ball bounces off the edges of the screen at random angles instead of a fixed one, adding variety to the movement.
-- **Improved Game Logic**: The ball's path changes unpredictably, making it more challenging for the player to anticipate where the ball will move.
+- **Click to Move**: Click on the ball to make it vanish and reappear at a random position.
+- **Score Tracking**: Each click increases the score by one.
+- **Increasing Speed**: The speed of the ball increases with each click to add a challenge.
 
-## Files
-- **index.html**: The main HTML file that structures the game.
-- **style.css**: The CSS file that styles the game interface and animations.
-- **script.js**: The JavaScript file containing the logic for ball movement and random angle generation.
+## Getting Started
 
-## How to Play
-1. Watch the ball move and bounce around the screen.
-2. The ball will bounce off the walls at random angles, making its movement less predictable.
-   
-## Future Enhancements
-- Adding click interactions and score tracking (Implemented in Version 3).
-- Introducing different levels of difficulty based on speed or angle variation.
+### Prerequisites
+Ensure you have a modern web browser (like Chrome, Firefox, or Edge) to view and interact with the game.
 
-## Project Setup
-1. Clone the repository:
+### Installation
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/tyagi0608/Bouncing-ball-game-.git
 2. Navigate to the Version2 folder:
    ```bash
     cd Version2
 4. Open index.html in your browser to play the game.
+
 ## Technologies used 
 - HTML5
 - CSS3
 - JavaScript (ES6)
+## Usage
+- Start the Game: Open index.html in your web browser.
+- Play: Click on the ball to make it vanish and reappear at a random position. Observe the score and the increasing speed.
 ## **Contribution**
 If you'd like to contribute to developing this game, you can fix the repository and submit a pull request with your changes.
 ## **Contact**
