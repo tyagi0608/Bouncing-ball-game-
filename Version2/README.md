@@ -23,7 +23,7 @@ In Version 2 of the bouncing ball game, we have enhanced the game by introducing
 ## Project Setup
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/tyagi0608/Bouncing-ball-game-.git
 2. Navigate to the Version2 folder:
    ```bash
     cd Version2
