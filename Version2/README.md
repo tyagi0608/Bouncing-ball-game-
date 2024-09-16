@@ -32,5 +32,11 @@ In Version 2 of the bouncing ball game, we have enhanced the game by introducing
 - HTML5
 - CSS3
 - JavaScript (ES6)
+## **Contribution**
+If you would like to contribute to developing this game, feel free to fork the repository and submit a pull request with your changes.
+## **Contact**
+For any questions or feedback, please contact:
 
+Name: Vaishnavi Tyagi
+Email: tyagivaish123@gmail.co
 
