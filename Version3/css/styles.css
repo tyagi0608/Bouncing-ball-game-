@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    overflow: hidden;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle at 30% 30%, #ffcc00, #ff9900);
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.1s ease-in-out;
+}
+
+#ball:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
