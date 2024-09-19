@@ -35,6 +35,8 @@ Simply double-click on the index.html file, or right-click and select "Open with
 ## **How It Works**
 The ball is created using CSS, and its movement is controlled by JavaScript.
 The ball changes direction randomly upon hitting the screen boundaries.
+## Tutorial
+-For a step-by-step tutorial, you can check out the live demo on [JSFiddle](https://jsfiddle.net/pikapika68/s31vgcw4/5/).
 ##**Future Plans**
 Add more features such as score tracking.
 Improve the graphics and animation effects.
