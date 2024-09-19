@@ -28,6 +28,8 @@ In Version 2 of the bouncing ball game, we have enhanced the game by introducing
    ```bash
     cd Version2
 4. Open index.html in your browser to play the game.
+## Tutorial
+-For a step-by-step tutorial, you can check out the live demo on [JSFiddle](https://jsfiddle.net/pikapika68/nufo18zs/5/).
 ## Technologies used 
 - HTML5
 - CSS3
