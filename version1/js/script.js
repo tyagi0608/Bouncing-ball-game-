@@ -1,17 +1,34 @@
-let x = 0, y = 0, dx = 2, dy = 2;
+document.addEventListener('DOMContentLoaded', function () {
+    const ball = document.getElementById('ball');
 
-function moveBall() {
-  x += dx;
-  y += dy;
+    // Encapsulate variables in the function to make them local
+    function moveBall() {
+        let x = 0;
+        let y = 0;
+        let dx = 2;
+        let dy = 2;
 
-  // Reverse direction if hitting edges
-  if (x >= window.innerWidth - 50 || x <= 0) dx = -dx;
-  if (y >= window.innerHeight - 50 || y <= 0) dy = -dy;
+        // Move the ball
+        function updatePosition() {
+            x += dx;
+            y += dy;
 
-  document.getElementById('ball').style.left = x + 'px';
-  document.getElementById('ball').style.top = y + 'px';
+            // Reverse direction if hitting edges
+            if (x >= window.innerWidth - 50 || x <= 0) dx = -dx;
+            if (y >= window.innerHeight - 50 || y <= 0) dy = -dy;
 
-  requestAnimationFrame(moveBall); // Continuously update position
-}
+            // Update the ball's position
+            ball.style.left = x + 'px';
+            ball.style.top = y + 'px';
 
-moveBall(); // Start the movement
+            // Continuously update position
+            requestAnimationFrame(updatePosition);
+        }
+
+        // Start the ball movement
+        updatePosition();
+    }
+
+    // Call the moveBall function to start the motion
+    moveBall();
+});
