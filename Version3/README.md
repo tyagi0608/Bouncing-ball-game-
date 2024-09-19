@@ -21,6 +21,11 @@ Ensure you have a modern web browser (like Chrome, Firefox, or Edge) to view and
    ```bash
     cd Version2
 4. Open index.html in your browser to play the game.
+## Tutorial
+For a step-by-step tutorial, you can check out the live demo on [JSFiddle](https://jsfiddle.net/pikapika68/mec6ovwL/8/).
+## How to Play
+- Click the ball to increase your score and speed.
+- The ball will move faster and reappear at a new random position.
 
 ## Technologies used 
 - HTML5
